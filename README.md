@@ -31,5 +31,6 @@ ARRAY TEXT($paths;0)
 APPEND TO ARRAY($paths;$pdfPath)
 APPEND TO ARRAY($paths;$pdfPath)
 $dstPath:=System folder(Desktop)+"merge.pdf"
+
 pdfunite (->$paths;$dstPath)
 ```
