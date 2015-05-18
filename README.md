@@ -4,6 +4,8 @@ Cross-platform tools to extract text from PDF, etc.
 Example
 ---
 
+Extract
+
 ```
 $pdfPath:=Get 4D folder(Current Resources folder)+"sample.pdf"
 
